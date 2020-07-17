@@ -42,8 +42,8 @@ public class Naukri_Upload
 		Thread.sleep(3000);
 		
 		driver.findElement(By.xpath("//a[.='Logout']")).click();
-		Thread.sleep(5000);
-		System.out.println("Done.....");
+		Thread.sleep(7000);
+		System.out.println("Done...");
 		
 		driver.quit();
 	}
